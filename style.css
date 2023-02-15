@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(248, 244, 244);
+}
+
+header{
+    min-height: 8vh;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+    flex-direction: column;
+   
+   }
+
+h1{
+    height: 100%;
+    width: 100%;
+    flex-grow: 8;
+    padding: 1rem;
+   
+}
+h2{
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    padding: 1rem;
+    justify-content: center;
+}
+h3{
+   flex-grow: 1;
+  
+}
+
+.common{
+    flex-grow: 1;
+    padding: 0.5rem;
+   
+}
+.lista{
+    flex-grow: 1;
+    padding: 1.5rem;
+   
+}
+
